@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
-const API_URL = 'http://localhost:6001/api';
+const API_URL = '/api';
 
 export default function ENDAMarket() {
   const [user, setUser] = useState(() => {
